@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      .wrap {
+        width: 100%;
+        display: flex;
+      }
+      .item {
+        width: 25%;
+        position: relative;
+      }
+      .item img {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .item .txt {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      .item:hover .txt {
+        opacity: 1;
+      }
+      .item h2 {
+        font-size: 32px;
+        color: #ff0;
+        font-weight: 500;
+      }
+      .item h2:after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: 10px 0;
+        background-color: #ff0;
+        transition: all 0.5s;
+      }
+      .item:hover h2:after {
+        width: 100%;
+      }
+      .item p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <img src="https://picsum.photos/500/400?random=11" />
+        <div class="txt">
+          <h2>金魚都能懂得 這個網頁怎麼切: 互動圖文卡片</h2>
+          <p>
+            互動圖文卡片就是我們在網頁中常見到的另一種稀飯版，不會切就遜掉喽
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/400?random=12" />
+        <div class="txt">
+          <h2>金魚都能懂得 這個網頁怎麼切: 互動圖文卡片</h2>
+          <p>
+            互動圖文卡片就是我們在網頁中常見到的另一種稀飯版，不會切就遜掉喽
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/400?random=13" />
+        <div class="txt">
+          <h2>金魚都能懂得 這個網頁怎麼切: 互動圖文卡片</h2>
+          <p>
+            互動圖文卡片就是我們在網頁中常見到的另一種稀飯版，不會切就遜掉喽
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/400?random=14" />
+        <div class="txt">
+          <h2>金魚都能懂得 這個網頁怎麼切: 互動圖文卡片</h2>
+          <p>
+            互動圖文卡片就是我們在網頁中常見到的另一種稀飯版，不會切就遜掉喽
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
