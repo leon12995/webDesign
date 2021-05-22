@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  table {
+    width: 600px;
+    height: 800px;
+    margin: auto;
+  }
+  td input[type="button"] {
+    width: 150px;
+    height: 180px;
+    font-size: 40px;
+  }
+  td input:hover[type="button"] {
+    background-color: rgb(58, 192, 233);
+    border-radius: 50px;
+  }
+  td input[type="text"] {
+    width: 450px;
+    height: 180px;
+    font-size: 80px;
+  }
