@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>超通用橫是版面 - 金魚都能懂得這個網頁畫面怎麼切</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      .wrap {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+        background: linear-gradient(-30deg, #fdaecb, #e7597f, #fe8556);
+      }
+      .container {
+        width: 1198px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 568px;
+        /* margin: 15px; */
+        margin: auto;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.6);
+        border: 1px solid #888;
+        box-shadow: 0 10px 30px rgba(160, 0, 0, 0.5);
+      }
+      .item .pic {
+        width: 50%;
+      }
+      .item .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .item .txt {
+        width: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+      }
+      .item .txt h2 {
+        margin-bottom: 0.4em;
+        font-weight: 500;
+      }
+      .item .txt p {
+        font-weight: 300;
+      }
+      .item .txt .btn {
+        line-height: 1.5em;
+        border: 1px solid #ccc;
+        padding: 0 1em;
+        align-self: flex-end;
+        text-decoration: none;
+        border-radius: 200px;
+        margin-top: auto;
+        color: #aaa;
+      }
+      .item .txt .btn:hover {
+        background-color: #ccc;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/400/400?random=11" />
+          </div>
+          <div class="txt">
+            <h2>金魚都能懂得切版</h2>
+            <p>
+              金魚號稱只有七秒的記憶，但其實這是錯誤的，科普遺下你就會知道金魚的記憶力其實不只有七秒，所以你有幾秒的記憶?
+            </p>
+            <a href="" class="btn">more</a>
+          </div>
+        </div>
+        <!-- <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/400/400?random=12" />
+          </div>
+          <div class="txt">
+            <h2>金魚都能懂得切版</h2>
+            <p>
+              金魚號稱只有七秒的記憶，但其實這是錯誤的，科普遺下你就會知道金魚的記憶力其實不只有七秒，所以你有幾秒的記憶?
+            </p>
+            <a href="" class="btn">more</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/400/400?random=13" />
+          </div>
+          <div class="txt">
+            <h2>金魚都能懂得切版</h2>
+            <p>
+              金魚號稱只有七秒的記憶，但其實這是錯誤的，科普遺下你就會知道金魚的記憶力其實不只有七秒，所以你有幾秒的記憶?
+            </p>
+            <a href="" class="btn">more</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/400/400?random=14" />
+          </div>
+          <div class="txt">
+            <h2>金魚都能懂得切版</h2>
+            <p>
+              金魚號稱只有七秒的記憶，但其實這是錯誤的，科普遺下你就會知道金魚的記憶力其實不只有七秒，所以你有幾秒的記憶?
+            </p>
+            <a href="" class="btn">more</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
