@@ -1,6 +1,6 @@
 # WEBDESIGN
 
-> TO learn how to desgin a website with basic HTML and CSS.
+> To learn how to desgin a website with basic HTML and CSS.
 > It's a tutorial course with Amos [_here_](https://www.youtube.com/channel/UCQfjTYYrqxPg5LJmDBUesbQ). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
