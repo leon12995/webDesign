@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      .main-header {
+        background: linear-gradient(0deg, #fe70d8, #3713c1);
+      }
+      .main-header .container {
+        display: flex;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+      }
+      .main-header .logo {
+        width: 100px;
+      }
+      .main-header .logo img {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .main-header .main-nav {
+        display: flex;
+        margin: auto;
+      }
+      .main-header .main-nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 1em;
+        position: relative;
+        transform: translateY(0px);
+        transition: 0.3s;
+      }
+      .main-header .main-nav a:hover {
+        transform: translateY(-5px);
+      }
+      .main-header .main-nav a:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: -5px;
+        height: 0;
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+      }
+      .main-header .main-nav a:hover:after {
+        left: 0;
+        right: 0;
+      }
+      .main-header .header-search {
+        display: flex;
+      }
+      .main-header .header-search button,
+      input {
+        border: none;
+        background-color: #fff;
+        padding: 5px 10px;
+      }
+      .main-header .header-search input:focus {
+        outline: none;
+      }
+      .main-header .header-search button {
+        border-radius: 0 200px 200px 0;
+      }
+      .main-header .header-search input {
+        border-radius: 200px 0 0 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="container">
+          <a href="" class="logo">
+            <img src="lionLogo.png" alt="" />
+          </a>
+          <nav class="main-nav">
+            <a href="#">金魚都能懂得系列</a>
+            <a href="#">暴力網頁入門系列</a>
+            <a href="#">CSS可樂系列</a>
+            <a href="#">RWD原來醬子系列</a>
+          </nav>
+          <form action="" class="header-search">
+            <input type="search" />
+            <button>a</button>
+          </form>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

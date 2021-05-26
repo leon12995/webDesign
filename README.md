@@ -5,13 +5,15 @@
 
 ## Table of Contents
 
-- [Graphic-Full-Page](Graphic-Full-Page/#fullPage.html)
-- [Interactive-Graphic-Card](Interactive-Graphic-Card/Card.html)
-- [Page-Footer-Section](Page-Footer-Section/index.html)
-- [Personnel-Introduction-Card](Personnel-Introduction-Card/card.html)
+- [Graphic-Full-Page 圖文滿版區塊](Graphic-Full-Page/#fullPage.html)<br />
+- [Interactive-Graphic-Card 互動圖文卡片](Interactive-Graphic-Card/Card.html)
+- [Personnel-Introduction-Card 人員介紹卡片](Personnel-Introduction-Card/card.html)
+- [Staggered-Floating-Version 交錯漂浮版](Staggered-Floating-Version/FloatVersion.html)
+- [UltraUniversal-Horizontal-Layout 超通用橫式版面](UltraUniversal-Horizontal-Layout/page.html)
+- [Page-Footer-Section 網頁頁尾版塊 ](Page-Footer-Section/index.html)
+- [Navigation-Bar 導覽列](Navigation-Bar/navigationBar.html)
+- [Variable-Navagation-bar 變化你的導覽列 ]([Navigation-Bar)
 - [Review](Review)
-- [Staggered-Floating-Version](Staggered-Floating-Version/FloatVersion.html)
-- [UltraUniversal-Horizontal-Layout](UltraUniversal-Horizontal-Layout/page.html)
 <!-- * [License](#license) -->
 
 ## Technologies Used

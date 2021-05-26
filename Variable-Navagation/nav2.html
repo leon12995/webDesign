@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nav2</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      .main-header {
+        background: linear-gradient(0deg, #fe70d8, #3713c1);
+      }
+      .main-header .container {
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+        max-width: 1200px;
+        height: 60px;
+        margin: auto;
+        align-items: center;
+      }
+      .main-header .logo {
+        width: 100px;
+        position: absolute;
+      }
+      .main-header .logo img {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .main-header .main-nav {
+        display: flex;
+      }
+      /* .main-header .main-nav:first-of-type {
+        order: -1;
+      } */
+      .main-header .main-nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 1em;
+        position: relative;
+        transform: translateY(0px);
+        transition: 0.3s;
+        margin: auto;
+      }
+      .main-header .main-nav a:hover {
+        transform: translateY(-5px);
+      }
+      .main-header .main-nav a:nth-child(3) {
+        margin-left: 140px;
+      }
+      .main-header .main-nav a:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: -5px;
+        height: 0;
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+      }
+      .main-header .main-nav a:hover:after {
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="container">
+          <a href="" class="logo">
+            <img src="lionLogo.png" alt="" />
+          </a>
+          <nav class="main-nav">
+            <a href="#">金魚都能懂得系列</a>
+            <a href="#">暴力網頁入門系列</a>
+            <a href="#">CSS可樂系列</a>
+            <a href="#">RWD原來醬子系列</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
