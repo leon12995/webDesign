@@ -6,13 +6,13 @@
 ## Table of Contents
 
 - [Graphic-Full-Page 圖文滿版區塊](https://codepen.io/leon-lin-the-reactor/pen/gOmRKze)
-- [Interactive-Graphic-Card 互動圖文卡片](Interactive-Graphic-Card/Card.html)
-- [Personnel-Introduction-Card 人員介紹卡片](Personnel-Introduction-Card/card.html)
-- [Staggered-Floating-Version 交錯漂浮版](Staggered-Floating-Version/FloatVersion.html)
-- [UltraUniversal-Horizontal-Layout 超通用橫式版面](UltraUniversal-Horizontal-Layout/page.html)
-- [Page-Footer-Section 網頁頁尾版塊 ](Page-Footer-Section/index.html)
-- [Navigation-Bar 導覽列](Navigation-Bar/navigationBar.html)
-- [Variable-Navagation-bar 變化你的導覽列 ](Variable-Navagation-bar)
+- [Interactive-Graphic-Card 互動圖文卡片](https://codepen.io/leon-lin-the-reactor/pen/bGqRKjQ)
+- [Personnel-Introduction-Card 人員介紹卡片](https://codepen.io/leon-lin-the-reactor/pen/dyvRKqR)
+- [Staggered-Floating-Version 交錯漂浮版](https://codepen.io/leon-lin-the-reactor/pen/eYvRKPm)
+- [UltraUniversal-Horizontal-Layout 超通用橫式版面](https://codepen.io/leon-lin-the-reactor/pen/ExWXROy)
+- [Page-Footer-Section 網頁頁尾版塊 ](https://codepen.io/leon-lin-the-reactor/pen/eYvRKxN)
+- [Navigation-Bar 導覽列](https://codepen.io/leon-lin-the-reactor/pen/XWMgYGd)
+- [Variable-Navagation-Bar 變化你的導覽列 ](https://codepen.io/leon-lin-the-reactor/pen/ZEeyRdb)
 - [Review](Review)
 <!-- * [License](#license) -->
 
