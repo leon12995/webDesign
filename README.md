@@ -12,7 +12,7 @@
 - [UltraUniversal-Horizontal-Layout 超通用橫式版面](UltraUniversal-Horizontal-Layout/page.html)
 - [Page-Footer-Section 網頁頁尾版塊 ](Page-Footer-Section/index.html)
 - [Navigation-Bar 導覽列](Navigation-Bar/navigationBar.html)
-- [Variable-Navagation-bar 變化你的導覽列 ]([Navigation-Bar)
+- [Variable-Navagation-bar 變化你的導覽列 ](Variable-Navagation-bar)
 - [Review](Review)
 <!-- * [License](#license) -->
 
