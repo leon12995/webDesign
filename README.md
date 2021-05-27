@@ -13,6 +13,9 @@
 - [Page-Footer-Section 網頁頁尾版塊 ](https://codepen.io/leon-lin-the-reactor/pen/eYvRKxN)
 - [Navigation-Bar 導覽列](https://codepen.io/leon-lin-the-reactor/pen/XWMgYGd)
 - [Variable-Navagation-Bar 變化你的導覽列 ](https://codepen.io/leon-lin-the-reactor/pen/ZEeyRdb)
+- [BreadCrumb 網站麵包屑](https://codepen.io/leon-lin-the-reactor/pen/OJpjOba)
+- [Cube-Pastry 方塊酥版面](https://codepen.io/leon-lin-the-reactor/pen/LYWjOxz)
+- [Broken-Format-Design 破格式設計](https://codepen.io/leon-lin-the-reactor/pen/XWMazMj)
 - [Review](Review)
 <!-- * [License](#license) -->
 

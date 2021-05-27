@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(-45deg, #fffaf0, #f8c3c1);
+      }
+      .wrap {
+        display: flex;
+        width: 1200px;
+        margin: 100px auto;
+        padding-top: 75px;
+      }
+      .item {
+        width: 370px;
+        margin: 15px;
+        text-align: center;
+        border: 10px solid #f9cec2;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 10px 20px 50px #f7b6a7;
+      }
+      .item h3 {
+        color: #f5afac;
+      }
+      .item p {
+        color: #ccc;
+      }
+      .item .icon {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        margin: -75px auto 0;
+        font-size: 85px;
+        line-height: 150px;
+        border-radius: 50%;
+        color: #f5afac;
+        position: relative;
+      }
+      .item .icon:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-top: 10px solid #f9cec2;
+        border-right: 10px solid #f9cec2;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent;
+        left: -10px;
+        top: -10px;
+        border-radius: 50%;
+        transform: rotate(-45deg);
+      }
+      .item:hover .far,
+      .item:hover .fas {
+        animation: shake 0.2s linear infinite alternate;
+      }
+      .item .txt {
+        padding: 20px 20px 2em;
+      }
+      @keyframes shake {
+        0% {
+          transform: rotate(-10deg);
+        }
+        100% {
+          transform: rotate(10deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <div class="icon"><i class="fas fa-bullhorn"></i></div>
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            odit iure quaerat magni laboriosam ullam perferendis, non corporis
+            aperiam laudantium necessitatibus ex quae optio ducimus, porro nisi
+            ab! Provident, quisquam.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="icon"><i class="far fa-bell"></i></div>
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            odit iure quaerat magni laboriosam ullam perferendis, non corporis
+            aperiam laudantium necessitatibus ex quae optio ducimus, porro nisi
+            ab! Provident, quisquam.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="icon"><i class="far fa-thumbs-up"></i></div>
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            odit iure quaerat magni laboriosam ullam perferendis, non corporis
+            aperiam laudantium necessitatibus ex quae optio ducimus, porro nisi
+            ab! Provident, quisquam.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

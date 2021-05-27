@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      body {
+        background-color: #000;
+      }
+      .wrap {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+      }
+      .item {
+        float: left;
+        position: relative;
+      }
+      .item img {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .item:first-child {
+        width: 50%;
+      }
+      .item:first-child ~ .item {
+        width: 25%;
+      }
+      .item .txt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        opacity: 0;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        transition: 0.5s;
+      }
+      .item:hover .txt {
+        opacity: 1;
+        transform: scale(1);
+      }
+      .item h3 {
+        margin-bottom: 0.4em;
+      }
+      .item p {
+        font-weight: 100px;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <img src="https://picsum.photos/500/500?random=11" />
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et, praesentium illum ipsum nobis maxime a dolorem
+            aliquam, ipsa mollitia, facilis repellendus? Recusandae ad molestias
+            saepe aliquam asperiores. Itaque, impedit!
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/500?random=12" />
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et, praesentium illum ipsum nobis maxime a dolorem
+            aliquam, ipsa mollitia, facilis repellendus? Recusandae ad molestias
+            saepe aliquam asperiores. Itaque, impedit!
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/500?random=13" />
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et, praesentium illum ipsum nobis maxime a dolorem
+            aliquam, ipsa mollitia, facilis repellendus? Recusandae ad molestias
+            saepe aliquam asperiores. Itaque, impedit!
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/500?random=14" />
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et, praesentium illum ipsum nobis maxime a dolorem
+            aliquam, ipsa mollitia, facilis repellendus? Recusandae ad molestias
+            saepe aliquam asperiores. Itaque, impedit!
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://picsum.photos/500/500?random=15" />
+        <div class="txt">
+          <h3>title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et, praesentium illum ipsum nobis maxime a dolorem
+            aliquam, ipsa mollitia, facilis repellendus? Recusandae ad molestias
+            saepe aliquam asperiores. Itaque, impedit!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
