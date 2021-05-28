@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrap {
+    width: 400px;
+    margin: auto;
+}
+
+.img img {
+    width: 100%;
+    vertical-align: middle;
+}
+.img p {
+    padding-top: 5px ;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.scoreKeeper{
+    padding-left: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+.scoreKeeper p{
+    font-size: 12px;
+}
+
+.selectionScore{
+    display: flex;
+    padding: 10px 0 ;
+}
+
+
+.selectionScore h3{
+ margin-right: 10px;
+}
+.selectionScore select{
+    border-radius: 40px ;
+}
+.selectionScore select:focus{
+    outline: none;
+}
+.btns{
+    width: 100%;
+    display: flex;
+}
+#btn1,#btn2,#btn3{
+    width: 33%;
+    color: #fff;
+}
+#btn1{
+ 
+    background-color: rgb(46, 156, 18);
+}
+#btn2{
+
+    background-color: hsl(226, 70%, 36%);
+
+}
+#btn3{
+    background-color: hsl(0, 76%, 46%);
+
+}
