@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>對話紀錄視窗</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d3effb;
+      }
+      .dialogue {
+        width: 500px;
+        padding: 20px;
+        box-shadow: 0 0 10px #3e92cc;
+        background-color: #f4f5f7;
+      }
+      .user {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        font-family: "Noto Sans TC", sans-serif;
+      }
+      .local {
+        justify-content: flex-end;
+      }
+      .user .avatar {
+        width: 60px;
+        text-align: center;
+        flex-shrink: 0;
+      }
+      .user .pic {
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .user .pic img {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .user .txt {
+        background-color: #aaa;
+        padding: 16px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .remote .txt {
+        margin-left: 20px;
+        margin-right: 80px;
+        background-color: #fff;
+        color: #a1b4c5;
+      }
+      .local .txt {
+        margin-right: 20px;
+        margin-left: 80px;
+        order: -1;
+        background-color: #3e92cc;
+        color: #fff;
+      }
+      .remote .txt::before,
+      .local .txt::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+      }
+      .remote .txt::before {
+        border-right: 10px solid #fff;
+        left: -10px;
+      }
+      .local .txt::before {
+        border-left: 10px solid #3e92cc;
+        right: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dialogue">
+      <div class="user remote">
+        <div class="avatar">
+          <div class="pic">
+            <img src="https://picsum.photos/200/200?random=1" />
+          </div>
+          <div class="name">Leon</div>
+        </div>
+        <div class="txt">老婆你好漂亮</div>
+      </div>
+      <div class="user local">
+        <div class="avatar">
+          <div class="pic">
+            <img src="https://picsum.photos/200/200?random=12" />
+          </div>
+          <div class="name">Ashley</div>
+        </div>
+        <div class="txt">那是為了配合你的帥</div>
+      </div>
+      <div class="user remote">
+        <div class="avatar">
+          <div class="pic">
+            <img src="https://picsum.photos/200/200?random=1" />
+          </div>
+          <div class="name">Leon</div>
+        </div>
+        <div class="txt">老婆你好漂亮</div>
+      </div>
+      <div class="user local">
+        <div class="avatar">
+          <div class="pic">
+            <img src="https://picsum.photos/200/200?random=12" />
+          </div>
+          <div class="name">Ashley</div>
+        </div>
+        <div class="txt">那是為了配合你的帥</div>
+      </div>
+    </div>
+  </body>
+</html>
